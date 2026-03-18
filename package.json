@@ -1,0 +1,46 @@
+{
+  "name": "@elizaos/plugin-x402-trust",
+  "version": "1.0.0",
+  "description": "Evaluate trust scores of x402-enabled services. Checks reachability, x402 compliance, service quality, and governance signals. No API key required.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "elizaos",
+    "elizaos-plugins",
+    "eliza",
+    "plugin",
+    "x402",
+    "trust",
+    "payments",
+    "web3",
+    "agent",
+    "ai"
+  ],
+  "author": "Andy Salvo",
+  "license": "MIT",
+  "peerDependencies": {
+    "@elizaos/core": "^1.0.0"
+  },
+  "devDependencies": {
+    "@elizaos/core": "^1.0.0",
+    "sharp": "^0.34.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "agentConfig": {
+    "pluginType": "elizaos:plugin:1.0.0",
+    "pluginParameters": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andysalvocreative/plugin-x402-trust"
+  }
+}
